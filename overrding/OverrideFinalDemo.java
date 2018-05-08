@@ -17,4 +17,13 @@ public class OverrideFinalDemo {
 	}
 
 }
-/*Compile Time Error :  Cannot override the final method from Parent*/
+/*Compile Time Error :  Cannot override the final method from Parent
+Parent Final method we can't override with non final, but parent class
+Non final method we can override as final method.
+
+Different cscenario for final and non-final method
+final - final : Compile Time Error
+final - non-final : Compile Time Error
+non-final - final : Valid
+
+*/
